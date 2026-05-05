@@ -1,0 +1,38 @@
+name: translate-routine
+
+# 매시 정각 + 수동 트리거.
+# 더 짧은 주기(예: 5분)는 cron 표현 '*/5 * * * *' 로 가능하지만,
+# 1인 블로그라 시간 단위로도 충분하고 GitHub Actions 무료 시간 절감에 유리.
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+# 동시 실행 1개로 제한 — 같은 작업이 중첩되지 않도록
+concurrency:
+  group: translate-routine
+  cancel-in-progress: false
+
+jobs:
+  translate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run translate routine
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: npm run translate

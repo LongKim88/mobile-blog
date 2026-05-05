@@ -1,0 +1,42 @@
+{
+  "header": {
+    "title": "Tech & Books",
+    "subtitle": "IT와 책 사이의 노트",
+    "schedule": "매주 화·목·토 발행"
+  },
+  "nav": {
+    "home": "HOME",
+    "it": "IT",
+    "book": "BOOK",
+    "find": "FIND"
+  },
+  "feed": {
+    "latest": "Latest Posts",
+    "empty": "아직 발행된 글이 없습니다.",
+    "emptyHint": "/admin 에서 첫 글을 발행해 보세요.",
+    "loadError": "글을 불러오지 못했습니다: {message}"
+  },
+  "category": {
+    "itTitle": "Category: IT",
+    "bookTitle": "Category: BOOK",
+    "itDesc": "도구·뉴스·트렌드. 매주 화/목 발행.",
+    "bookDesc": "신간·서평·요약. 매주 토요일 발행.",
+    "empty": "아직 발행된 글이 없습니다."
+  },
+  "post": {
+    "sources": "Sources",
+    "translationPending": "이 언어의 번역이 아직 준비되지 않았습니다."
+  },
+  "language": {
+    "label": "언어",
+    "ko": "한국어",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "menu": {
+    "file": "File",
+    "edit": "Edit",
+    "view": "View",
+    "help": "Help"
+  }
+}

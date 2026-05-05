@@ -1,0 +1,42 @@
+{
+  "header": {
+    "title": "Tech & Books",
+    "subtitle": "Ghi chép giữa IT và sách",
+    "schedule": "Đăng vào Thứ Ba · Thứ Năm · Thứ Bảy"
+  },
+  "nav": {
+    "home": "HOME",
+    "it": "IT",
+    "book": "BOOK",
+    "find": "FIND"
+  },
+  "feed": {
+    "latest": "Bài viết mới nhất",
+    "empty": "Chưa có bài viết nào được đăng.",
+    "emptyHint": "Đăng bài đầu tiên từ /admin.",
+    "loadError": "Không thể tải bài viết: {message}"
+  },
+  "category": {
+    "itTitle": "Chuyên mục: IT",
+    "bookTitle": "Chuyên mục: SÁCH",
+    "itDesc": "Công cụ, tin tức, xu hướng. Đăng Thứ Ba/Thứ Năm.",
+    "bookDesc": "Sách mới, đánh giá, tóm tắt. Đăng Thứ Bảy.",
+    "empty": "Chưa có bài viết nào được đăng."
+  },
+  "post": {
+    "sources": "Nguồn",
+    "translationPending": "Bản dịch ngôn ngữ này chưa sẵn sàng."
+  },
+  "language": {
+    "label": "Ngôn ngữ",
+    "ko": "한국어",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "menu": {
+    "file": "File",
+    "edit": "Edit",
+    "view": "View",
+    "help": "Help"
+  }
+}

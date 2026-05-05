@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+html, body {
+  background: #008080;
+  color: #000000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  /* Win98 양각 — 버튼·윈도우 외곽 */
+  .win-raised {
+    @apply border-2 border-t-white border-l-white border-r-[#808080] border-b-[#808080];
+  }
+  /* Win98 음각 — 패널·인풋·눌린 버튼 */
+  .win-sunken {
+    @apply border-2 border-t-[#808080] border-l-[#808080] border-r-white border-b-white;
+  }
+  /* 하드 검정 섀도우 */
+  .win-shadow {
+    @apply shadow-[4px_4px_0_0_#000];
+  }
+}
+
+/* 본문 마크다운 — Win98 톤 (검정 텍스트, 네이비 액센트) */
+.prose-article p {
+  margin: 0 0 1em;
+  line-height: 1.7;
+  font-size: 13px;
+}
+.prose-article h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin: 1.6em 0 0.5em;
+  padding-bottom: 0.25em;
+  border-bottom: 2px solid #000;
+}
+.prose-article h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 1.3em 0 0.4em;
+  text-decoration: underline;
+}
+.prose-article ul {
+  margin: 0 0 1em 1.2em;
+  list-style: square;
+}
+.prose-article ol {
+  margin: 0 0 1em 1.4em;
+  list-style: decimal;
+}
+.prose-article li {
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 0.3em;
+}
+.prose-article a {
+  color: #000080;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.prose-article a:hover { color: #0000c0; }
+.prose-article strong { font-weight: 700; }
+.prose-article em { font-style: italic; }
+.prose-article code {
+  background: #dfdfdf;
+  padding: 0.1em 0.35em;
+  font-size: 12px;
+  border: 1px solid #808080;
+}
+.prose-article pre {
+  background: #000;
+  color: #fff;
+  padding: 0.85rem;
+  margin: 1.1em 0;
+  font-size: 12px;
+  overflow-x: auto;
+  border: 2px solid;
+  border-top-color: #808080;
+  border-left-color: #808080;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+}
+.prose-article pre code {
+  background: transparent;
+  padding: 0;
+  color: inherit;
+  border: none;
+  font-size: inherit;
+}
+.prose-article blockquote {
+  border-left: 4px solid #000080;
+  background: #dfdfdf;
+  padding: 0.75rem;
+  margin: 1.2em 0;
+  font-size: 13px;
+}
+.prose-article hr {
+  border: 0;
+  border-top: 2px solid #000;
+  margin: 1.5em 0;
+}
+.prose-article img {
+  margin: 1.2em 0;
+  border: 2px solid;
+  border-top-color: #808080;
+  border-left-color: #808080;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+}

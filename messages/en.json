@@ -1,0 +1,42 @@
+{
+  "header": {
+    "title": "Tech & Books",
+    "subtitle": "Notes between IT and books",
+    "schedule": "Published Tue · Thu · Sat"
+  },
+  "nav": {
+    "home": "HOME",
+    "it": "IT",
+    "book": "BOOK",
+    "find": "FIND"
+  },
+  "feed": {
+    "latest": "Latest Posts",
+    "empty": "No posts published yet.",
+    "emptyHint": "Publish your first post from /admin.",
+    "loadError": "Failed to load posts: {message}"
+  },
+  "category": {
+    "itTitle": "Category: IT",
+    "bookTitle": "Category: BOOK",
+    "itDesc": "Tools, news, trends. Published Tue/Thu.",
+    "bookDesc": "New releases, reviews, summaries. Published Saturdays.",
+    "empty": "No posts published yet."
+  },
+  "post": {
+    "sources": "Sources",
+    "translationPending": "Translation in this language is not ready yet."
+  },
+  "language": {
+    "label": "Language",
+    "ko": "한국어",
+    "en": "English",
+    "vi": "Tiếng Việt"
+  },
+  "menu": {
+    "file": "File",
+    "edit": "Edit",
+    "view": "View",
+    "help": "Help"
+  }
+}
