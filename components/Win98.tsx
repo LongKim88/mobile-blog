@@ -1,7 +1,5 @@
-import type { ComponentType, ReactNode } from "react";
-import { Folder, Minus, Square, X } from "lucide-react";
-
-type IconProps = { size?: number; strokeWidth?: number };
+import type { ReactNode } from "react";
+import { Folder, Minus, Square, X, type LucideIcon } from "lucide-react";
 
 /**
  * Win98 타이틀바.
@@ -15,7 +13,7 @@ export function TitleBar({
 }: {
   title: string;
   active?: boolean;
-  icon?: ComponentType<IconProps>;
+  icon?: LucideIcon;
   controls?: boolean;
 }) {
   return (
@@ -56,7 +54,7 @@ export function Window({
   bodyClassName = "p-2",
 }: {
   title: string;
-  icon?: ComponentType<IconProps>;
+  icon?: LucideIcon;
   children: ReactNode;
   className?: string;
   bodyClassName?: string;
