@@ -63,11 +63,6 @@ export async function middleware(req: NextRequest) {
     return adminGuard(req);
   }
 
-  // /preview : 디자인 시안 — locale 외부로 그대로 통과
-  if (path.startsWith("/preview")) {
-    return NextResponse.next();
-  }
-
   // 나머지 공개 사이트 — next-intl 라우팅 (locale 자동 prefix)
   return intlMiddleware(req);
 }
