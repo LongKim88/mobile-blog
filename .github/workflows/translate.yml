@@ -24,11 +24,13 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
+      # npm install (npm ci 대신) — lock file 의 minor 호환성 차이 (로컬 npm 11 vs CI npm 10)
+      # 를 자동 흡수하기 위함. 1인 블로그 routine 이라 결정성 약간 양보 OK.
       - name: Install dependencies
-        run: npm ci
+        run: npm install --no-audit --no-fund
 
       - name: Run translate routine
         env:
