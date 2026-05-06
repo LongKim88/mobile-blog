@@ -2,7 +2,7 @@
   "header": {
     "title": "Tech & Books",
     "subtitle": "Notes between IT and books",
-    "schedule": "Published Tue · Thu · Sat"
+    "schedule": "Published Mon · Thu"
   },
   "nav": {
     "home": "HOME",
@@ -19,8 +19,8 @@
   "category": {
     "itTitle": "Category: IT",
     "bookTitle": "Category: BOOK",
-    "itDesc": "Tools, news, trends. Published Tue/Thu.",
-    "bookDesc": "New releases, reviews, summaries. Published Saturdays.",
+    "itDesc": "Tools, news, trends. Published Mondays and Thursdays.",
+    "bookDesc": "New releases, reviews, summaries. Published every other Thursday.",
     "empty": "No posts published yet."
   },
   "post": {

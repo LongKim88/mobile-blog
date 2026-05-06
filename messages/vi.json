@@ -2,7 +2,7 @@
   "header": {
     "title": "Tech & Books",
     "subtitle": "Ghi chép giữa IT và sách",
-    "schedule": "Đăng vào Thứ Ba · Thứ Năm · Thứ Bảy"
+    "schedule": "Đăng vào Thứ Hai · Thứ Năm"
   },
   "nav": {
     "home": "HOME",
@@ -19,8 +19,8 @@
   "category": {
     "itTitle": "Chuyên mục: IT",
     "bookTitle": "Chuyên mục: SÁCH",
-    "itDesc": "Công cụ, tin tức, xu hướng. Đăng Thứ Ba/Thứ Năm.",
-    "bookDesc": "Sách mới, đánh giá, tóm tắt. Đăng Thứ Bảy.",
+    "itDesc": "Công cụ, tin tức, xu hướng. Đăng Thứ Hai và Thứ Năm hằng tuần.",
+    "bookDesc": "Sách mới, đánh giá, tóm tắt. Đăng Thứ Năm cách tuần.",
     "empty": "Chưa có bài viết nào được đăng."
   },
   "post": {

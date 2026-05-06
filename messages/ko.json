@@ -2,7 +2,7 @@
   "header": {
     "title": "Tech & Books",
     "subtitle": "IT와 책 사이의 노트",
-    "schedule": "매주 화·목·토 발행"
+    "schedule": "매주 월·목 발행"
   },
   "nav": {
     "home": "HOME",
@@ -19,8 +19,8 @@
   "category": {
     "itTitle": "Category: IT",
     "bookTitle": "Category: BOOK",
-    "itDesc": "도구·뉴스·트렌드. 매주 화/목 발행.",
-    "bookDesc": "신간·서평·요약. 매주 토요일 발행.",
+    "itDesc": "도구·뉴스·트렌드. 매주 월·목 발행.",
+    "bookDesc": "신간·서평·요약. 격주 목요일 발행.",
     "empty": "아직 발행된 글이 없습니다."
   },
   "post": {

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: `%s · ${SITE_NAME}`,
   },
   description:
-    "IT 도구·뉴스 큐레이션과 책 핵심 요약을 매주 3회 발행하는 매거진형 블로그.",
+    "IT 도구·뉴스 큐레이션과 책 서평을 매주 월·목 발행하는 매거진형 블로그 (책은 격주 목).",
 };
 
 export const viewport: Viewport = {
